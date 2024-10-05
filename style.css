@@ -1,0 +1,125 @@
+/* Struture */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background-image: linear-gradient(to top, #052650, #05265f); */
+  background-color: #05265f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* END Struture */
+
+/* Initialization tag/class/id for style text */
+h1 {
+  font-size: 5rem;
+  /* margin-top: 0.2rem; */
+  color: aliceblue;
+}
+/* END Initialization tag/class/id for style text */
+
+/* Space ID */
+.first-box {
+  width: 100%;
+  height: 7rem;
+  padding-right: 16px;
+  margin-top: -10rem;
+  margin-left: -0.5rem;
+  /* background-color: #052659; */
+  position: fixed;
+}
+
+/* END Space */
+
+/* Header */
+.first-logo {
+  margin-top: -13rem;
+  margin-left: 2rem;
+  position: fixed;
+}
+
+#navbar {
+  position: fixed;
+}
+
+.navbar {
+  margin-top: -7rem;
+  /* margin-right: 4rem; */
+  margin-bottom: 4rem;
+  width: 100%;
+  /* background-color: greenyellow; */
+}
+
+.navbar a {
+  margin-right: 3rem;
+  display: block;
+  float: right;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navbar a:hover {
+  color: #3684fb;
+}
+p {
+  padding: 300px;
+  font-size: 10rem;
+}
+
+.active {
+  padding: 10px 15px 10px;
+  margin-top: -0.6rem;
+  background-color: orange;
+}
+/* END Header */
+
+/* container home */
+/* END container home */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .first-box {
+    margin-top: -10rem;
+  }
+
+  .first-logo {
+    margin-top: -12.9rem;
+  }
+
+  .navbar {
+    margin-top: -3rem;
+    margin-right: 2rem;
+    display: none;
+    background-color: rgba(0, 80, 252, 0.251);
+  }
+
+  .navbar a {
+    /* margin-left: 10px; */
+    display: block;
+    /* float: right; */
+    text-decoration: none;
+    color: red;
+  }
+  .active {
+    padding: 0;
+    margin-top: 0;
+    background: none;
+  }
+
+  .burger {
+    width: 100%;
+    margin-top: -8rem;
+    position: fixed;
+  }
+
+  .burger .burger-box {
+    float: right;
+    margin-right: 2rem;
+  }
+
+  .burger .burger-box div {
+    width: 35px;
+    height: 5px;
+    background-color: orange;
+    margin: 6px 0;
+  }
+}
